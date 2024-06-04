@@ -1,0 +1,20 @@
+{
+    "name": "haamzaaay/contact",
+    "description": "A simple database notification",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Haamzaaay",
+            "email": "85665625+Haamzaaay@users.noreply.github.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "haamzaaay\\contact\\": "src/"
+        }
+    }
+}
