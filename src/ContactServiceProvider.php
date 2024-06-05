@@ -17,7 +17,7 @@ class ContactServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/views', 'contact');    // folder and second argument is package name
         $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/courier.php',
+            __DIR__ . '/config/defaultContactMessage.php',
             'contact'
         );
         $this->publishes([
