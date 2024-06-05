@@ -1,20 +1,24 @@
 {
-    "name": "haamzaaay/contact",
-    "description": "A simple database notification",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Haamzaaay",
-            "email": "85665625+Haamzaaay@users.noreply.github.com"
-        }
-    ],
-    "require": {
-
-    },
-    "autoload": {
-        "psr-4": {
-            "haamzaaay\\contact\\": "src/"
-        }
+  "name": "haamzaaay/contact",
+  "description": "A simple database notification",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Haamzaaay",
+      "email": "85665625+Haamzaaay@users.noreply.github.com"
     }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "laravel/framework": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "haamzaaay\\contact\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+
 }
